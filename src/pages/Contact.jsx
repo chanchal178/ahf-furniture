@@ -23,6 +23,7 @@ function Contact() {
         <div className="contact-card">
           <h3>Call Us</h3>
           <p>+91 9913014019</p>
+          <p>+91 6367754060</p>
         </div>
 
         <div className="contact-card">
@@ -35,7 +36,9 @@ function Contact() {
           <a href="https://wa.me/91XXXXXXXXXX"
              target="_blank"
              rel="noreferrer">
-            Chat With Us → 9913014019
+            Chat With Us → 9913014019  
+                           
+                           6367754060
           </a>
         </div>
 
