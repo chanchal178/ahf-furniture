@@ -1,4 +1,7 @@
 
+import BungalowDetails from "./pages/BungalowDetails";
+import "./App.css";
+import "./ProjectStyles.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/Navbar";
@@ -9,8 +12,6 @@ import About from "./pages/About";
 import Projects from "./pages/Projects";
 import ProjectDetails from "./pages/ProjectDetails";
 import Contact from "./pages/Contact";
-
-import "./App.css";
 
 function App() {
   return (
@@ -26,6 +27,11 @@ function App() {
           <Route
             path="/projects/mini-golf-arena-cafe"
             element={<ProjectDetails />}
+          />
+
+          <Route
+            path="/projects/yogeshwar-bungalows"
+            element={<BungalowDetails />}
           />
 
           <Route path="/contact" element={<Contact />} />

@@ -12,6 +12,15 @@ const projects = [
     available: true
   },
   {
+  title: "Bungalows – 6, Yogeshwar Society",
+  category: "Residential",
+  description:
+    "Customized furniture and interior solutions including TV units, beds, wardrobes, kitchen and more.",
+  image: "/images/bungalow-01.jpeg",
+  link: "/projects/yogeshwar-bungalows",
+  available: true
+},
+  {
     title: "Hotel & Hospitality Projects",
     category: "Hospitality",
     description:

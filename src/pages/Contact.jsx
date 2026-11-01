@@ -31,16 +31,28 @@ function Contact() {
           <p>hira.ram.15@email.com</p>
         </div>
 
-        <div className="contact-card">
-          <h3>WhatsApp</h3>
-          <a href="https://wa.me/91XXXXXXXXXX"
-             target="_blank"
-             rel="noreferrer">
-            Chat With Us → 9913014019  
-                           
-                           6367754060
-          </a>
-        </div>
+       
+<div className="contact-card">
+  <h3>WhatsApp</h3>
+  <div className="whatsapp-links">
+    <a
+      href="https://wa.me/919913014019"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Chat With Us → 9913014019
+    </a>
+
+    <a
+      href="https://wa.me/916367754060"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+                      6367754060
+    </a>
+  </div>
+</div>
+
 
       </div>
 
